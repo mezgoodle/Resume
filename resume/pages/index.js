@@ -1,39 +1,12 @@
+import HeroComponent from "../components/hero";
+
 export default function Home() {
   return (
     <div>
       <div id="container--main">
-        <section id="wrapper--hero" class="section--page">
-          <img id="profile-pic" src="./assets/images/profile_pic.JPG" />
+        <HeroComponent />
 
-          <div>
-            <h1 id="user-name">Dennis Ivanov</h1>
-            <p id="bio">
-              Software developer, developer advocate at{" "}
-              <a href="https://www.agora.io/en/" target="_blank">
-                Agora
-              </a>
-              , Udemy{" "}
-              <a
-                href="https://www.udemy.com/user/dennis-ivanov-5/"
-                target="_blank"
-              >
-                instructor
-              </a>
-              ,{" "}
-              <a href="https://www.youtube.com/c/dennisivy" target="_blank">
-                YouTuber
-              </a>{" "}
-              with 166k+ subs and contributor at{" "}
-              <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">
-                Traversy Media
-              </a>
-              .
-            </p>
-            <p id="email">👉 dennis@dennisivy.com</p>
-          </div>
-        </section>
-
-        <section class="section--page">
+        <section className="section--page">
           <div id="socials--list">
             <a href="https://youtube.com/c/dennisivy" target="_blank">
               Youtube
@@ -56,7 +29,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section class="section--page">
+        <section className="section--page">
           <h2>Skills & Qualifications</h2>
           <ul id="qualifications--list">
             <li>✔️ 7 Years experience with front & backend development</li>
@@ -68,30 +41,30 @@ export default function Home() {
           </ul>
         </section>
 
-        <section class="section--page">
+        <section className="section--page">
           <h2>Tech stack</h2>
 
           <div id="wrapper--techstack__items">
-            <div class="card--techstack">
+            <div className="card--techstack">
               <span>Python, JavaScript, NodeJS</span>
             </div>
-            <div class="card--techstack">
+            <div className="card--techstack">
               <span>Django, Express, Flask, FastAPI</span>
             </div>
-            <div class="card--techstack">
+            <div className="card--techstack">
               <span>React, Next JS</span>
             </div>
-            <div class="card--techstack">
+            <div className="card--techstack">
               <span>Postgres, MongoDB, MySQL</span>
             </div>
           </div>
         </section>
 
-        <section id="work-history-wrapper" class="section--page">
+        <section id="work-history-wrapper" className="section--page">
           <h2>Work History</h2>
 
-          <div class="line-break"></div>
-          <div class="card--work-history">
+          <div className="line-break"></div>
+          <div className="card--work-history">
             <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
             <p>11/2021 - Present</p>
             <p>
@@ -116,9 +89,9 @@ export default function Home() {
             </ul>
           </div>
 
-          <div class="line-break"></div>
+          <div className="line-break"></div>
 
-          <div class="card--work-history">
+          <div className="card--work-history">
             <strong>🚧 INSTRUCTOR | YOUTUBE, UDEMY, TEACHABLE</strong>
             <p>11/2019 - Present</p>
             <p>
@@ -141,9 +114,9 @@ export default function Home() {
             </ul>
           </div>
 
-          <div class="line-break"></div>
+          <div className="line-break"></div>
 
-          <div class="card--work-history">
+          <div className="card--work-history">
             <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
             <p>10/2017 - 10/2019</p>
             <p>
@@ -167,9 +140,9 @@ export default function Home() {
             </ul>
           </div>
 
-          <div class="line-break"></div>
+          <div className="line-break"></div>
 
-          <div class="card--work-history">
+          <div className="card--work-history">
             <strong>🚧 DIGITAL MARKETER | UNIFIVE DIGITAL</strong>
             <p>2014 - 2017</p>
             <p>
@@ -193,31 +166,31 @@ export default function Home() {
           </div>
         </section>
 
-        <section class="section--page">
+        <section className="section--page">
           <h2>Projects & Accomplishments</h2>
 
-          <div class="card--project">
+          <div className="card--project">
             <a href="project1.html">
               <span>🏆 </span>Built a Laboratory management system for forensics
               lab
             </a>
           </div>
 
-          <div class="card--project">
+          <div className="card--project">
             <a href="project1.html">
               <span>🏆 </span>Documentation website - Lead team to re-build docs
               for agora.io
             </a>
           </div>
 
-          <div class="card--project">
+          <div className="card--project">
             <a href="project1.html">
               <span>🏆 </span>Ecommerce platform using paypal and stripe API for
               payment integration
             </a>
           </div>
 
-          <div class="card--project">
+          <div className="card--project">
             <a href="project1.html">
               <span>🏆 </span>Social Network - open source project
             </a>
